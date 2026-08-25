@@ -1,0 +1,27 @@
+import random, pgzrun
+WIDTH:800
+HEIGHT:600
+
+box = Rect(0,0,800,100)
+questionbox = Rect(10,110,580,150)
+timerbox = Rect(610,110,200,150)
+
+
+
+
+def draw():
+    screen.fill("black")
+    screen.draw.filled_rect(box,"blue")
+    screen.draw.filled_rect(questionbox,"white")
+    screen.draw.filled_rect(timerbox,"white")
+
+
+
+
+
+def update():
+    pass
+
+
+
+pgzrun.go()
